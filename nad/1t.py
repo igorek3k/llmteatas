@@ -1,3 +1,7 @@
+# Дана целочисленная матрица A(N, N). 
+# Необходимо реализовать функцию, которая будет менять местами
+# элементы главной и побочной диагоналей.
+
 import random
 
 def swap_diagonals(matrix_, n):
@@ -18,6 +22,7 @@ def print_matrix(matrix_, n):
             print(matrix[i][j], end=' ')
         print()
         
+    
 n = int(input())
 
 if (n <= 0):
